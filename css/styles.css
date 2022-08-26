@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Bold.ttf) format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Robot-Italic.ttf) format('truetype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Light.ttf) format('truetype');
+    font-weight: light;
+}
+
+
+body {
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+#hero {
+    padding: 20px 10em 100px 10em;
+    background-color: #1F2937;
+}
+
+.nav-links {
+    display: flex;
+}
+
+#logo {
+    flex: 7;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.nav-item {
+    flex: 1;
+    margin: 0 1em;
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#heroMain {
+    margin-top: 100px;
+    display: flex;
+}
+
+#heroText h1 {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #f9faf8;
+    display: inline;
+}
+
+#heroText p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#heroText a {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+#heroText a:hover{
+    background-color: #27518b;
+}
+
+#heroText a:focus{
+    background-color: #93e60f;
+    color: #1F2937;
+}
+
+#heroImg {
+    margin-left: 20px;
+}
+
+#heroImg img {
+    width: 500px;
+}
+
+#information {
+    padding: 40px 10em 50px 10em;
+}
+
+#informationHeader {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 1200;
+    color: #1f2937;
+}
+
+#informationContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#informationContent img {
+    width: 200px;
+    height: 200px;
+    border: #3882F6 solid 5px;
+    border-radius: 20px;
+}
+
+.information-item {
+    margin: 0 1.5em;
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+}
+
+#Quote{
+    padding: 40px 20em 80px 20em;
+    background-color: #E5E7EB;
+}
+
+#Quote #content{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#Quote #author{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#CallToAction {
+    padding: 80px 15em 90px 15em;
+    
+}
+
+#CallToActionFrame{
+    background-color: #3882f6;
+    padding: 20px 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#CallToActionText h1{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#CallToActionText p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#CallToActionFrame a{
+    background-color: #3882F6;
+    border: 3px solid #f9faf8;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: bold;
+    cursor: pointer;
+    height: 20px;
+    align-self: center;
+    text-decoration: none;
+}
+
+footer {
+    padding: 20px 10em;
+    background-color: #1F2937;
+}
+
+#footerText{
+    text-align: center;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#footerIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerIcons img{
+    width: 50px;
+    margin: 0 1em;
+    background-color: #3882F6;
+    border-radius: 50px;
+}
+
