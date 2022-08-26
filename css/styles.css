@@ -84,11 +84,11 @@ body {
 }
 
 
-#heroText a:hover{
+#heroText a:hover {
     background-color: #27518b;
 }
 
-#heroText a:focus{
+#heroText a:focus {
     background-color: #93e60f;
     color: #1F2937;
 }
@@ -132,18 +132,18 @@ body {
     font-size: 18px;
 }
 
-#Quote{
+#Quote {
     padding: 40px 20em 80px 20em;
     background-color: #E5E7EB;
 }
 
-#Quote #content{
+#Quote #content {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
 }
 
-#Quote #author{
+#Quote #author {
     font-size: 24px;
     font-weight: bold;
     text-align: right;
@@ -151,10 +151,10 @@ body {
 
 #CallToAction {
     padding: 80px 15em 90px 15em;
-    
+
 }
 
-#CallToActionFrame{
+#CallToActionFrame {
     background-color: #3882f6;
     padding: 20px 50px;
     border-radius: 10px;
@@ -162,17 +162,17 @@ body {
     justify-content: space-around;
 }
 
-#CallToActionText h1{
+#CallToActionText h1 {
     font-size: 24px;
     color: #F9FAF8;
 }
 
-#CallToActionText p{
+#CallToActionText p {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-#CallToActionFrame a{
+#CallToActionFrame a {
     background-color: #3882F6;
     border: 3px solid #f9faf8;
     border-radius: 12px;
@@ -191,22 +191,21 @@ footer {
     background-color: #1F2937;
 }
 
-#footerText{
+#footerText {
     text-align: center;
     font-size: 18px;
     color: #E5E7EB;
 }
 
-#footerIcons{
+#footerIcons {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#footerIcons img{
+#footerIcons img {
     width: 50px;
     margin: 0 1em;
     background-color: #3882F6;
     border-radius: 50px;
 }
-
