@@ -236,8 +236,7 @@ footer {
     border: #3882F6 solid 1px;
 }
 
-input,
-textarea {
+input, textarea {
     box-sizing: border-box;
     width: 100%;
     padding: 10px;
@@ -292,7 +291,6 @@ iframe {
 
 #rain {
     position: relative;
-
 }
 
 #rain h1 {
