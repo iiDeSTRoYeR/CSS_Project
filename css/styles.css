@@ -29,7 +29,7 @@ body {
 }
 
 #hero {
-    padding: 20px 10em 100px 10em;
+    padding: 20px 10em 50px 10em;
     background-color: #1F2937;
 }
 
@@ -71,7 +71,8 @@ body {
     color: #E5E7EB;
 }
 
-#heroText a {
+#heroText a,
+input[type="submit"] {
     background-color: #3882F6;
     border: none;
     border-radius: 12px;
@@ -135,6 +136,13 @@ body {
 #Quote {
     padding: 40px 20em 80px 20em;
     background-color: #E5E7EB;
+}
+
+#Quote #header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 1200;
+    color: #1f2937;
 }
 
 #Quote #content {
@@ -208,4 +216,100 @@ footer {
     margin: 0 1em;
     background-color: #3882F6;
     border-radius: 50px;
+}
+
+
+#Contact {
+    padding: 40px 10em 50px 10em;
+    background-color: #E5E7EB;
+    display: flex;
+
+}
+
+#ContactForm {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+    padding: 20px;
+    background-color: rgb(169, 205, 235);
+    border-radius: 10px;
+    border: #3882F6 solid 1px;
+}
+
+input,
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #3882F6;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+#Address {
+    flex: 5;
+    padding: 20px;
+    border: #3882f6 solid 1px;
+    margin-left: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+iframe {
+    height: 75%;
+    width: 100%;
+    border: #3882f6 solid 5px;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+#Contact input[type="submit"] {
+    border: #e8e9e9 solid 5px;
+    width: 50%;
+    align-self: end;
+}
+
+#Address h3 {
+    text-align: start;
+    font-size: 24px;
+}
+
+#Address span {
+    text-align: start;
+    display: inline;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+#AboutVideo {
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+#rain {
+    position: relative;
+
+}
+
+#rain h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 48px;
+    color: #E5E7EB;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+#rain video {
+    position: relative;
+    z-index: 0;
 }
